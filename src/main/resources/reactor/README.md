@@ -12,6 +12,8 @@ reactor模式
 
 [Scalable IO in Java](http://gee.cs.oswego.edu/dl/cpjslides/nio.pdf)
 
+[细说Reactor模式](http://blog.csdn.net/u010168160/article/details/53019039)
+
 `reactor框架图见/resources/reacotr/reacotr.png`
 
 Java NIO非堵塞技术实际是采取反应器模式，或者说是观察者(observer)模式为我们监察I/O端口，
