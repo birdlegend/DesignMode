@@ -104,6 +104,7 @@ class PersonMenu implements Menu
 
     }
 
+    @Override
     public synchronized void setPersonMenu(String person, List list)
 
     {
@@ -114,6 +115,7 @@ class PersonMenu implements Menu
 
     }
 
+    @Override
     public List findPersonMenu(String person, List list)
 
     {
@@ -153,9 +155,11 @@ class PersonMenuMuch implements Menu {
     }
 
     //两个无为的方法
+    @Override
     public synchronized void setPersonMenu(String person, List list) {
     }
 
+    @Override
     public List findPersonMenu(String person, List list) {
         List nothing = null;
         return nothing;

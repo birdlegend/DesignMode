@@ -35,6 +35,7 @@ class ConcreteTicket implements Ticket {
         this.to = to;
     }
 
+    @Override
     public void showPrice(String type) {
         if (type.equals("Gaotie")) {
             System.out.println("从" + from + "到" + to + "的高铁票价为200元");
