@@ -1,4 +1,4 @@
-package com.zsb.FlyweightPattern.menu;
+package com.zsb.flyweightPattern.menu;
 
 import java.util.*;
 

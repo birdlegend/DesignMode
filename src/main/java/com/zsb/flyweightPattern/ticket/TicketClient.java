@@ -1,4 +1,4 @@
-package com.zsb.FlyweightPattern.ticket;
+package com.zsb.flyweightPattern.ticket;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
